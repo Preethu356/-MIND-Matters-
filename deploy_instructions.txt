@@ -1,0 +1,18 @@
+DEPLOY INSTRUCTIONS
+
+Streamlit Community Cloud:
+1. Create a GitHub repository and push all files.
+2. Go to https://share.streamlit.io -> New app -> connect your repo.
+3. Set the repository secrets: OPENAI_API_KEY (if using OpenAI).
+4. Deploy.
+
+Heroku:
+1. Create a Heroku app.
+2. Connect your GitHub repository or push via git.
+3. Add OPENAI_API_KEY in Heroku Config Vars.
+4. Deploy using main branch.
+
+Security notes:
+- Never commit API keys.
+- Use HTTPS and consider rate limiting.
+- Include country-specific crisis resources before public launch.

@@ -1,0 +1,13 @@
+[app]
+title = "MH Consult — Mental Health Consultation"
+warning_message = "This tool is informational only and not a replacement for professional care."
+crisis_hotline = "National Helpline: 9152987821"
+crisis_text = "Text HOME to 741741 (example)"
+
+[model]
+default_model = "gpt-4o-mini"
+max_tokens = 512
+temperature = 0.7
+
+[style]
+background_color = "#FAFAFB"
